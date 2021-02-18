@@ -8,5 +8,6 @@ var $plugins =
 {"name":"UTSU_DisableImageSmoothing","status":true,"description":"画像の拡大時の補完機能を無効にします","parameters":{}},
 {"name":"PictureCallCommon","status":true,"description":"ピクチャのボタン化プラグイン","parameters":{"透明色を考慮":"true","ピクチャ番号の変数番号":"0","ポインタX座標の変数番号":"0","ポインタY座標の変数番号":"0","タッチ操作抑制":"false","戦闘中常にコモン実行":"false","無効スイッチ":"0"}},
 {"name":"HyperLink","status":true,"description":"ゲーム中に外部ページへのリンクを貼ります。","parameters":{"description":""}},
-{"name":"Oggy_CustomLoading","status":true,"description":"v1.00 This plugin customizes a loading ui","parameters":{}}
+{"name":"Oggy_CustomLoading","status":true,"description":"v1.00 This plugin customizes a loading ui","parameters":{}},
+{"name":"kaihen","status":true,"description":"","parameters":{}}
 ];
