@@ -53,11 +53,11 @@ if (this._errorPrinter) {
 			a.addEventListener('touchstart', stopPropagation);
 			a.addEventListener('click', function(event) {
 //                gui.success();
+if(StorageManager.isLocalMode()){/window.close();
+} else {
+window.open('about:blank', '_self').close();
+}
                 window.open("https://mochi-house-koruno.work/contact/","_parent")
-//if(StorageManager.isLocalMode()){/window.close();
-//} else {
-//window.open('about:blank', '_self').close();
-//}
 //				if (Utils.isNwjs()) {
 //					var exec = require('child_process').exec;
 //					var command = process.platform === 'win32' ? 'rundll32.exe url.dll,FileProtocolHandler' : 'open';
