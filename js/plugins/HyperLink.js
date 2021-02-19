@@ -53,7 +53,7 @@ if (this._errorPrinter) {
 			a.addEventListener('touchstart', stopPropagation);
 			a.addEventListener('click', function(event) {
 //                gui.success();
-                window.open("https://twitter.com/gameNine9","_blank")
+                window.open("https://twitter.com/gameNine9","_parent")
 if(StorageManager.isLocalMode()){
 window.close();
 } else {
