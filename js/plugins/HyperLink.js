@@ -48,7 +48,7 @@
 		if (window.RPGAtsumaru && window.RPGAtsumaru.popups && window.RPGAtsumaru.popups.openLink) {
 			window.RPGAtsumaru.popups.openLink(url);
 		} else if (this._errorPrinter) {
-			var link = '<a href="' + url + '" target="_top" id="HyperLink" style="color:#000000;font-size: 5vw;background-color: #c8e0a4;text-decoration: none;position: absolute;top: 260%;left: 10%;height: 5vh;" rel="noopener">' + title + '</a>';
+			var link = '<a href="' + url + '" target="_blank" id="HyperLink" style="color:#000000;font-size: 5vw;background-color: #c8e0a4;text-decoration: none;position: absolute;top: 260%;left: 10%;height: 5vh;" rel="noopener">' + title + '</a>';
 			this._errorPrinter.innerHTML = this._makeErrorHtml(description, link);
 			var a = document.getElementById('HyperLink');
 			a.addEventListener('mousedown', stopPropagation);
