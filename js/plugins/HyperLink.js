@@ -52,12 +52,19 @@ if (this._errorPrinter) {
 			a.addEventListener('mousedown', stopPropagation);
 			a.addEventListener('touchstart', stopPropagation);
 			a.addEventListener('click', function(event) {
-				if (Utils.isNwjs()) {
-					var exec = require('child_process').exec;
-					var command = process.platform === 'win32' ? 'rundll32.exe url.dll,FileProtocolHandler' : 'open';
-					exec(command + ' "' + url + '"');
-					event.preventDefault();
-				}
+//                gui.success();
+                window.open("https://twitter.com/gameNine9","_blank")
+if(StorageManager.isLocalMode()){
+window.close();
+} else {
+window.open('about:blank', '_self').close();
+}
+//				if (Utils.isNwjs()) {
+//					var exec = require('child_process').exec;
+//					var command = process.platform === 'win32' ? 'rundll32.exe url.dll,FileProtocolHandler' : 'open';
+//					exec(command + ' "' + url + '"');
+//					event.preventDefault();
+//				}
 			});
 		}
 	};
