@@ -22,7 +22,6 @@
 #_111_submit{
 	position: absolute; /* */
 	z-index:9999; /* */
-
 	font-weight:bold; 
     color: #f8f8f8;
     text-shadow: black 0.04em 0.04em 0em, black -0.04em 0.04em 0em,

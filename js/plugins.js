@@ -11,5 +11,5 @@ var $plugins =
 {"name":"Oggy_CustomLoading","status":true,"description":"v1.00 This plugin customizes a loading ui","parameters":{}},
 {"name":"kaihen","status":true,"description":"","parameters":{}},
 {"name":"HyperLink2","status":true,"description":"ゲーム中に外部ページへのリンクを貼ります。","parameters":{"description":""}},
-{"name":"InputForm","status":false,"description":"フォーム作って文字入力（修正版）","parameters":{}}
+{"name":"InputForm","status":true,"description":"フォーム作って文字入力（修正版）","parameters":{}}
 ];
