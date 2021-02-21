@@ -55,6 +55,7 @@
         this._barElement.style.width = '100%';
         this._barElement.style.height = '10%';
         this._barElement.style.background = 'linear-gradient(to top, darkgray, gray)';
+        this._barElement.style.background-color = 'white';
         this._barElement.style.border = '2px solid lightgray';
         this._barElement.style.borderRadius = '15px';
         this._barElement.style.marginTop = '40%';
@@ -64,6 +65,7 @@
         this._filledBarElement.style.width = '0%';
         this._filledBarElement.style.height = '100%';
         this._filledBarElement.style.background = 'linear-gradient(to top, #1685ad, #269dc9)';
+        this._filledBarElement.style.background-color = 'white';
         this._filledBarElement.style.borderRadius = '5px';
 
         this._progressElement.appendChild(this._barElement);

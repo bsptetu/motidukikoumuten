@@ -1487,7 +1487,7 @@ Bitmap.prototype.blur = function() {
         tempContext.drawImage(canvas, 0, h - 1, w, 1, 1, h + 1, w, 1);
         tempContext.drawImage(canvas, w - 1, 0, 1, h, w + 1, 1, 1, h);
         context.save();
-        context.fillStyle = 'black';
+        context.fillStyle = 'white';
         context.fillRect(0, 0, w, h);
         context.globalCompositeOperation = 'lighter';
         context.globalAlpha = 1 / 9;
@@ -1996,7 +1996,7 @@ Graphics.printLoadingError = function(url) {
         button.innerHTML = 'Retry';
         button.style.fontSize = '24px';
         button.style.color = '#ffffff';
-        button.style.backgroundColor = '#000000';
+        button.style.backgroundColor = '#FFFFFF';
         button.onmousedown = button.ontouchstart = function(event) {
             ResourceHandler.retry();
             event.stopPropagation();
@@ -2416,7 +2416,7 @@ Graphics._testCanvasBlendModes = function() {
     context.fillRect(0, 0, 1, 1);
     imageData1 = context.getImageData(0, 0, 1, 1);
     context.globalCompositeOperation = 'source-over';
-    context.fillStyle = 'black';
+    context.fillStyle = 'white';
     context.fillRect(0, 0, 1, 1);
     context.globalCompositeOperation = 'saturation';
     context.fillStyle = 'white';
@@ -2638,7 +2638,7 @@ Graphics._createModeBox = function() {
     box.style.top = '5px';
     box.style.width = '119px';
     box.style.height = '58px';
-    box.style.background = 'rgba(0,0,0,0.2)';
+    box.style.background = 'rgba(255,255,255,0.2)';
     box.style.zIndex = 9;
     box.style.opacity = 0;
 
@@ -6210,7 +6210,7 @@ Object.defineProperty(ScreenSprite.prototype, 'blendMode', {
  * @method setBlack
  */
 ScreenSprite.prototype.setBlack = function () {
-    this.setColor(0, 0, 0);
+    this.setColor(255, 255, 255);
 };
 
 /**
