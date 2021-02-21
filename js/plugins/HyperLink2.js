@@ -49,7 +49,7 @@
 			window.RPGAtsumaru.popups.openLink(url);
 		} else if (this._errorPrinter) {
 			//var link = '<a href="' + url + '" target="new" id="HyperLink" style="color:#000000;font-size: 5vw;background-color: #c8e0a4;text-decoration: none;position: absolute;top: 260%;margin-left: auto;margin-right: auto;height: 5vh;" rel="noopener">' + title + '</a>';
-			var link = '<a href="tel:+81-54-622-4929" id="HyperLink"><img src="tel_banner.jpg" alt="電話でのお問合せ　☎054-622-4929 スマートフォンをご利用の場合、こちらをタップすることで電話をかけることができます" style="color:#000000;font-size: 5vw;background-color: #c8e0a4;text-decoration: none;position: absolute;top: 260%;left: 5%;height: 12vh;" rel="noopener"></a>';
+			var link = '<a href="tel:0546224929"><img src="tel_banner.jpg" alt="電話でのお問合せ　☎054-622-4929 スマートフォンをご利用の場合、こちらをタップすることで電話をかけることができます" style="color:#000000;font-size: 5vw;background-color: #c8e0a4;text-decoration: none;position: absolute;top: 260%;left: 5%;height: 12vh;" rel="noopener"></a>';
 			this._errorPrinter.innerHTML = this._makeErrorHtml(description, link);
 			var a = document.getElementById('HyperLink');
 
