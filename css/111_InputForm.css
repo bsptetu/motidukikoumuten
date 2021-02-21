@@ -1,3 +1,7 @@
+body {
+  background-image: url("motiba.png");
+  background-size: cover;
+}
 
 /* ここからは、テキストフォームのデザインに関する設定です。 */
 #_111_input{

@@ -758,6 +758,7 @@ Bitmap.prototype._createCanvas = function(width, height){
     this.__canvas.width = Math.max(width || 0, 1);
     this.__canvas.height = Math.max(height || 0, 1);
 
+
     if(this._image){
         var w = Math.max(this._image.width || 0, 1);
         var h = Math.max(this._image.height || 0, 1);
