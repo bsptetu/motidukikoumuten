@@ -267,7 +267,7 @@ var PIXI;
                 if (this.textures.length === 0)
                     return;
                 var points = this.pointsBuf;
-                renderer.context.fillStyle = '#FFFFFF';
+                renderer.context.fillStyle = '#000000';
                 for (var i = 0, n = points.length; i < n; i += 9) {
                     var x1 = points[i], y1 = points[i + 1];
                     var x2 = points[i + 2], y2 = points[i + 3];
