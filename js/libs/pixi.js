@@ -15820,7 +15820,7 @@ var SystemRenderer = function (_EventEmitter) {
      * @member {number[]}
      * @private
      */
-    _this._backgroundColorRgba = [0, 0, 0, 0];
+    _this._backgroundColorRgba = [255, 255, 255, 0];
 
     /**
      * The background color as a string.
@@ -15828,7 +15828,7 @@ var SystemRenderer = function (_EventEmitter) {
      * @member {string}
      * @private
      */
-    _this._backgroundColorString = '#000000';
+    _this._backgroundColorString = '#FFFFFF';
 
     _this.backgroundColor = options.backgroundColor || _this._backgroundColor; // run bg color setter
 
@@ -16206,7 +16206,7 @@ var CanvasRenderer = function (_SystemRenderer) {
         context.globalCompositeOperation = this.blendModes[_const.BLEND_MODES.NORMAL];
 
         if (navigator.isCocoonJS && this.view.screencanvas) {
-            context.fillStyle = 'black';
+            context.fillStyle = 'white';
             context.clear();
         }
 
